@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
-import cleanDB from "./cleanDB";
-import { users, thoughts, reactions } from "./data";
-import User from "../models/User";
-import Thought from "../models/Thought";
+import cleanDB from "./cleanDB.js";
+import { users, thoughts, reactions } from "./data.js";
+import User from "../models/User.js";
+import Thought from "../models/Thought.js";
 
 const seedData = async (): Promise<void> => {
   try {
