@@ -1,4 +1,3 @@
-// Example data
 export const users = [
   {
     username: "lernantino",
@@ -14,12 +13,10 @@ export const thoughts = [
   {
     thoughtText: "Here's a cool thought...",
     username: "lernantino",
-    userId: "userId1", // Use real ObjectId later
   },
   {
     thoughtText: "I think this social network API is great!",
     username: "john_doe",
-    userId: "userId2",
   },
 ];
 
